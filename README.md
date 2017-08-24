@@ -18,7 +18,7 @@ First set the `indexRedirect` options on the config object in `config/enviroment
 
 module.exports = function(environment) {
   const ENV = {
-    modulePrefix: sample-app',
+    modulePrefix: 'sample-app',
     environment,
     
     indexRedirect: {
