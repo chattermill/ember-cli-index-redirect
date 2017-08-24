@@ -1,11 +1,11 @@
-# Index-redirect
+# ember-cli-index-redirect
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd index-redirect`
+* `cd ember-cli-index-redirect`
 * `npm install`
 * `bower install`
 

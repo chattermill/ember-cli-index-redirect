@@ -1,6 +1,6 @@
 {
-  "name": "index-redirect",
-  "version": "0.0.0",
+  "name": "ember-cli-index-redirect",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/chattermill/ember-cli-index-redirect",
   "engines": {
     "node": ">= 0.12.0"
   },
@@ -41,7 +41,9 @@
     "loader.js": "^4.0.10"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "redirect",
+    "index"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.7"
