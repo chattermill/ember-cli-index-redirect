@@ -12,7 +12,7 @@ module.exports = {
         <script>
           var appHost = "${host}";
           if ( appHost !== "" && appHost !== document.location.host) {
-            var url = "${protocol}" + appHost + document.location.pathname + document.location.search;
+            var url = "${protocol}://" + appHost + document.location.pathname + document.location.search;
             window.location.replace(url);
           }
         </script>
