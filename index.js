@@ -5,6 +5,7 @@ module.exports = {
   name: 'ember-cli-index-redirect',
 
   contentFor(type, config) {
+    if ((typeof config.indexRedirect === 'undefined')) { return null; }
     const { host, protocol } = config.indexRedirect;
 
     if (type === 'app-redirect' && (typeof host !== 'undefined')) {
