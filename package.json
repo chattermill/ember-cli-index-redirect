@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-index-redirect",
+  "name": "@chattermill/ember-cli-index-redirect",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember CLI add-on to force redirections on index.html.",
   "directories": {
     "doc": "doc",
     "test": "tests"
