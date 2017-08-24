@@ -1,6 +1,6 @@
 # ember-cli-index-redirect
 
-This addon allows you to use the {{content-for 'app-redirect'}} helper in your app/index.html file to force a redirection to a different
+This addon allows you to use the `{{content-for "app-redirect"}}` helper in your `app/index.html` file to force a redirection to a different
 Host before loading the app.
 
 This is useful for quick or temporary redirections during changes on platform or infrastructure.
@@ -38,7 +38,7 @@ module.exports = function(environment) {
 
 Target URL will maintain pathname and query string params present in the current URL.
 
-Then you can use `{{content-for 'index-redirect'}}` on `app/index.html` to insert URL check and redirection code.
+Then you can use `{{content-for "app-redirect"}}` on `app/index.html` to insert URL check and redirection code.
 
 That's it :D
 
